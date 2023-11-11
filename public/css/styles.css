@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+}
+
+.custom-bg {
+    background-color: #0F252B;
+    color: white;
+}
+
+.custom-input {
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    width: 50%;
+}
+.custom-button {
+    background-color: #0F252B; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-button button:hover{
+    background-color:white;
+    color:  #0F252B; 
+}
+
+
+/*Layout */
+.menu {
+    width: 300px;
+    /*height:30px;*/
+    background-color: #f7f7f7; 
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    color: #333;
+}
+
+.user-info {
+    background-color: #007BFF; 
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+}
+
+.user-info i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Definindo a largura para todos os botões */
+}
+
+.menu-item a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.menu-item a i {
+    margin-right: 8px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+
+/*Tabelas de controle de celas*/ 
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.table {
+    width: 80%; 
+}
+
+.table th {   
+    background-color:#0F252B ;
+    color: #fff;
+}
+
+.table td, .table th {
+    border: 1px solid #0F252B;;
+    text-align: center;
+}
+.table .btn a{
+    padding: 10px 10px;
+    background-color:#0F252B;
+    color: #fff;
+    border: none;
+    width: 100%;
+    text-decoration: none;
+}
+.table a.btn:hover {
+    background-color: black;
+}
+.table a.btn:focus {
+    border: none;
+}
